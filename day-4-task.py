@@ -3,8 +3,8 @@ import os
 print("\t\t\t\t\t\t Hello! I here for your assistance. Just type in what I would like to open for you.")
 print()
 while True:   
-    print("\t\t\t\t\t\tWhat Program would you like to open?")
-    p = input()
+    p = input("\n\t What Program would you like to open? : ")
+    
     if("run" in p) and (("browser" in p) or ("explorer" in p)):
         print("Opening a Browser!")
         os.system("iexplore")
